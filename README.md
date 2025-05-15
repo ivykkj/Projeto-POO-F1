@@ -11,10 +11,8 @@ Sistema de Gerenciamento de Campeonato de Fórmula 1, que engloba:
 # CLASSES
 
 1. classes abstratas
- 
-    Pessoa ()
 
-    Funcionario (herda de Pessoa) – base para Piloto, Engenheiro, Mecânico
+    Funcionario ()
     
 2. Pessoas / Funcionários
 
@@ -22,17 +20,13 @@ Sistema de Gerenciamento de Campeonato de Fórmula 1, que engloba:
 
     Engenheiro (herda de Funcionario)
 
-    Mecanico (herda de Funcionario)
-
     ChefeEquipe (herda de Funcionario)
 
-4. Equipe e Recursos
+3. Equipe e Recursos
 
     Equipe
 
     Carro
-
-    Departamento
 
     TesteDePista
 
@@ -42,4 +36,4 @@ Sistema de Gerenciamento de Campeonato de Fórmula 1, que engloba:
 
     Corrida
 
-    ResultadoCorrida (tabela associativa entre Corrida, Piloto e Equipe, com posição e pontos)
+    ResultadoCorrida
